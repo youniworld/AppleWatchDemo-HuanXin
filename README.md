@@ -1,4 +1,4 @@
-# AppleWatchDemo-Android
+# AppleWatchDemo-HuanXin
 此项目简单演示Apple Watch Kit 如何集成环信的SDK
 current only few features were implemented but subject to be implemented more in future
 
