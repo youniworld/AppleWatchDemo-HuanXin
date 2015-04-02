@@ -7,7 +7,11 @@ Apple Watch App Extension bridge implementation，which is the bridge connecting
 
 ##AppDelegate
 ###IOS App delegate
-func application(application: UIApplication!, handleWatchKitExtensionRequest userInfo: [NSObject : AnyObject]!, reply: (([NSObject : AnyObject]!) -> Void)!)
+This is the interface which should be implemented to handle the request sent from Apple Watch Kit Extention
+
+>func application(application: UIApplication!, handleWatchKitExtensionRequest userInfo: [NSObject : AnyObject]!, reply: (([NSObject : AnyObject]!) -> Void)!)
 
 ##HXSDKHelper
 The helper class of HuanXin SDK in which only one sendTextMessage is implemented but more helper APIs will be implemented in this class.
+
+>请重新导入环信 IM SDK(please reimport HuanXin IM SDK)
